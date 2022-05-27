@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ABDO/IdeaProjects/TheinternetTest">
+        <classes><class name="TESTS.A_B_TEST">
+            <methods><include name="A_B_TEST"/></methods>
+        </class>
+            <class name="TESTS.Add_removetest">
+                <methods><include name="MethodOrder"/>
+                    <include name="enter_Link"/><include name="Add_element"/>
+                    <include name="Delete_element"/></methods></class>
+            <class name="TESTS.Base_To_Test">
+                <methods><include name="Instance"/></methods>
+            </class></classes>
+    </test>
+</suite>
